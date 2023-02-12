@@ -1,0 +1,14 @@
+.intenrship{
+    display:flex;
+    flex-direction:row;
+    width: 100%;
+    gap:2%
+}
+
+@media (max-width: 800px) {
+    .intenrship {
+      flex-direction: column;
+      gap:10px
+    }
+   
+}

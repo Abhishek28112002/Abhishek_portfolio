@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from './component/Front/Main';
+import Home from './component/Home.js';
 
 import reportWebVitals from './reportWebVitals';
 
