@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 
 function InternshipCard({item}) {
   return (
-    <Card  style={{borderRadius:'20px',width:'100%'}} >
+    <Card  style={{borderRadius:'20px',width:'100%',boxShadow:'1px 1px  white'}} >
         <div style={{display:'flex'}}>
       <Card.Img style={{margin:'10px',width:'100px'}} height="40%" src={item.companylogo} />
       <div style={{marginLeft:'10px',marginTop:'10px'}}>

@@ -103,7 +103,7 @@ function Home() {
           </div>
         </div>
       </section>
-<section className="internship" id="internship">
+<section className="internship about" id="internship">
         <div className="max-width">
           <h2 className="title">My Experience</h2>
           <div className="about-content">
@@ -152,28 +152,10 @@ function Home() {
               <div className="column left">
                 <div className="text">My creative skills & experiences.</div>
                 <p>
-                  Expert in front-end development including technologies like
-                  <span className="tech-tag">React , React Native</span>,
-                  <span className="tech-tag">HTML5</span>,
-                  <span className="tech-tag">CSS3</span>,
-                  <span className="tech-tag">JavaScript</span>,
-                  <span className="tech-tag">Bootstrap</span>
-                  <span className="tech-tag">TypeScript</span> ,etc.
-                  <br></br>
-                  <br></br>
-                  Expert in Back-end development,Database including technologies
-                  like
-                  <span className="tech-tag">
-                    AWS, Node Js , Express js ,MongoDB, etc.
-                  </span>
-                  <br></br>
-                  <br></br>
-                  Expert in Software development including technologies like
-                  <span className="tech-tag">C++ , Java </span>,
-                  <span className="tech-tag">Data Structure </span>,
-                  <span className="tech-tag">Algorithm</span>,
-                  <span className="tech-tag">Pyhton</span>,
-                  <span className="tech-tag">My Sql</span>, etc.
+                As a highly skilled software developer, I possess expertise in various fields of development, including front-end technologies such as React, React Native, HTML5, CSS3, JavaScript, Bootstrap, and TypeScript. Additionally, my experience in back-end development and database management, using AWS, Node.js, Express.js, and MongoDB, makes me a well-rounded developer. My proficiency in software development, including languages such as C++, Java, data structures, algorithms, Python, and MySQL, demonstrates my ability to work on complex projects and deliver high-quality results. 
+                </p>
+                <p>
+                I am constantly seeking to expand my knowledge and skills, and I am eager to bring my expertise to your team.
                 </p>
                 <p>
                   I’m not a designer but I have a good sense of aesthetics, and
@@ -249,7 +231,7 @@ function Home() {
           </div>
         </section>
       </div>
-      <section className="teams" id="teams">
+      <section className="teams about" id="teams">
         <div className="max-width">
           <h2 className="title" >
             My Projects

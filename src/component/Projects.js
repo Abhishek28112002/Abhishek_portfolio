@@ -12,7 +12,7 @@ const data=[{
 
 {
     title:"SPACE DATA SCIENCE AUTO CLASSIFIER FOR  KEPLARS TCE",
-    description:"We have made a machine learning model using python. Implemented Node js for keeping users input from frontend. The accuracy of our model ws 70%",
+    description:"Expertly designed and implemented a machine learning model using Python, showcasing a strong understanding of the programming language and its applications in the field of artificial intelligence. Utilized Node.js to efficiently handle user inputs from the front-end, demonstrating proficient skills in full-stack development. Achieved a significant accuracy rate of 70% on the model, demonstrating a strong ability to deliver effective and reliable results.",
     githublink:"https://github.com/Abhishek28112002/Space_Data_Science-",
     Skills:"Node, Javascript, HTML, CSS, Python"
 },
@@ -25,21 +25,21 @@ const data=[{
 ,
 {
     title:"Stringar Social Web Application",
-    description:"I have desgined stringar for social chat and gaming application. Implemented React, javascript, HTML, CSS, tailwind .",
+    description:"Designed and developed a cutting-edge social chat and gaming application, stringar, utilizing the latest web development technologies such as React, JavaScript, HTML, CSS, and Tailwind. Demonstrated exceptional skills in full-stack web development and delivered a highly functional and visually appealing product. The result of this project showcases my ability to bring ideas to life, effectively combining design and technical skills to create a seamless user experience for the end-users.",
     githublink:"https://github.com/stringarapp/core",
     Skills:"React , Redux-toolkit, Javascript, HTML, CSS"
 }
 ,
 {
     title:"Wordle Game",
-    description:"I have cloned Wordle game in react js. It contains of 10000 words and new word come every new day. This have all the features of Wordle Game. You can see it i have hosted already",
+    description:"Cloned the popular Wordle game using React JS, resulting in a fully functional and dynamic application with a database of over 10,000 words and the ability to add new words on a daily basis. The application contains all the features of the original Wordle game, and has been successfully hosted, demonstrating strong skills in React JS development and the ability to deliver high-quality and engaging web applications.",
     livelink:"http://abhiwordle.netlify.app",
     Skills:"React js, Javascript"
 }
 ,
 {
     title:"TO-DO List",
-    description:"To-Do list is desgined in React. It contains of delete , add, searching features. I have also used localstorage so that data can be retrieved easily",
+    description:"Developed a highly functional and user-friendly To-Do list application using React, featuring key capabilities such as adding, deleting, and searching tasks. Utilized local storage to ensure that data can be easily retrieved, demonstrating a strong understanding of web development principles and an ability to deliver practical and efficient solutions.",
     livelink:"https://abhitodo.netlify.app",
     Skills:"React , JavaScript, Localstorage"
 }
