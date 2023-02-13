@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Projects from "./Projects";
-import file from "../assets/Abhishek_resume.pdf";
+import file from "../assets/Abhishek_Mittal_Frontend_resume.pdf";
 import { init } from "ityped";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
@@ -12,7 +12,7 @@ import img2 from "../assets/Images/abhi12.jpg";
 import Linkdin from "../assets/linkedin.svg";
 import Gmail from "../assets/gmail.svg";
 import Insta from "../assets/instagram.svg";
-import Internship from './Internship'
+import Internship from "./Internship";
 function Home() {
   const [user, setuser] = useState({
     name: "",
@@ -29,7 +29,7 @@ function Home() {
       loop: true,
       strings: [
         "Student",
-        "Full Stack Developer",
+        "MERN Stack Developer",
         "Android Developer",
         "Software Developer",
       ],
@@ -45,12 +45,17 @@ function Home() {
 
   const postdata = async (e) => {
     e.prventdefault();
+    if(!(user.email || user.subject || user.message || user.subject))
+    {
+      console.log("fill all data") ;
+      return;
+    }
     console.log(user);
-    fetch("http://localhost:5000/users", {
+    fetch("http://localhost:5000/sendmail", {
       method: "POST",
       // We convert the React state to JSON and send it as the POST body
       headers: { "Content-Type": "application/json" },
-      body: user,
+      body: JSON.stringify(user),
     }).then(function (response) {
       console.log(response);
       return response.json();
@@ -103,14 +108,14 @@ function Home() {
           </div>
         </div>
       </section>
-<section className="internship about" id="internship">
+      <section className="internship about" id="internship">
         <div className="max-width">
           <h2 className="title">My Experience</h2>
           <div className="about-content">
             <Internship></Internship>
           </div>
-          </div>
-</section>
+        </div>
+      </section>
       <section className="about" id="about">
         <div className="max-width">
           <h2 className="title">About me</h2>
@@ -152,10 +157,21 @@ function Home() {
               <div className="column left">
                 <div className="text">My creative skills & experiences.</div>
                 <p>
-                As a highly skilled software developer, I possess expertise in various fields of development, including front-end technologies such as React, React Native, HTML5, CSS3, JavaScript, Bootstrap, and TypeScript. Additionally, my experience in back-end development and database management, using AWS, Node.js, Express.js, and MongoDB, makes me a well-rounded developer. My proficiency in software development, including languages such as C++, Java, data structures, algorithms, Python, and MySQL, demonstrates my ability to work on complex projects and deliver high-quality results. 
+                  As a highly skilled software developer, I possess expertise in
+                  various fields of development, including front-end
+                  technologies such as React, React Native, HTML5, CSS3,
+                  JavaScript, Bootstrap, and TypeScript. Additionally, my
+                  experience in back-end development and database management,
+                  using AWS, Node.js, Express.js, and MongoDB, makes me a
+                  well-rounded developer. My proficiency in software
+                  development, including languages such as C++, Java, data
+                  structures, algorithms, Python, and MySQL, demonstrates my
+                  ability to work on complex projects and deliver high-quality
+                  results.
                 </p>
                 <p>
-                I am constantly seeking to expand my knowledge and skills, and I am eager to bring my expertise to your team.
+                  I am constantly seeking to expand my knowledge and skills, and
+                  I am eager to bring my expertise to your team.
                 </p>
                 <p>
                   I’m not a designer but I have a good sense of aesthetics, and
@@ -233,9 +249,7 @@ function Home() {
       </div>
       <section className="teams about" id="teams">
         <div className="max-width">
-          <h2 className="title" >
-            My Projects
-          </h2>
+          <h2 className="title">My Projects</h2>
           <Projects />
         </div>
       </section>
@@ -292,12 +306,12 @@ function Home() {
             </div>
             <div className="column right">
               <div className="text">Message me</div>
-              <form method="post" action="/">
+              <form >
                 <div className="fields">
                   <div className="field name">
                     <input
                       type="text"
-                      name="name"
+                      name="username"
                       onChange={handlinput}
                       placeholder="Name"
                       valuerequired
