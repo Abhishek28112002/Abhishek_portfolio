@@ -26,8 +26,9 @@ const data=[{
 {
     title:"Stringar Social Web Application",
     description:"Designed and developed a cutting-edge social chat and gaming application, stringar, utilizing the latest web development technologies such as React, JavaScript, HTML, CSS, and Tailwind. Demonstrated exceptional skills in full-stack web development and delivered a highly functional and visually appealing product. The result of this project showcases my ability to bring ideas to life, effectively combining design and technical skills to create a seamless user experience for the end-users.",
-    githublink:"https://github.com/stringarapp/core",
-    Skills:"React , Redux-toolkit, Javascript, HTML, CSS"
+    githublink:"https://github.com/Abhishek28112002/Social-Wb-Application",
+    Skills:"React , Redux-toolkit, Javascript, HTML, CSS",
+    livelink:"https://social-wb-application.vercel.app"
 }
 ,
 {
