@@ -23,16 +23,14 @@ function Internship() {
     Implemented email-based OTP verification and utilized JWT for token generation and bcrypt for password hashing
     Proficient in using Android Studio for development and visualization of the application on both iOS and Android platforms.`,
     companylogo:`${Bettertalk}`,
-    skills:'Node, Express, MongoDB, React Native'
+    skills:'NodeJs, ExpressJs, MongoDB, React Native'
   },{
   companyname:"TwinIot",
   role:"Backend Developer",
   duration:"Feb 16 2022",
-  description:`Hosted back-end on Amazon Web Services (AWS) using Lambda functions, DynamoDB, and S3 bucket
-  Designed and implemented efficient chat messaging protocols using socket technology
-  Utilized NoSQL database MongoDB to track user information and ensure data accuracy and security`,
+  description:`I designed and implemented a chat messaging application using various AWS services such as Lambda functions, DynamoDB, and S3 bucket. I used socket technology to create efficient messaging protocols and integrated WebRTC for better video calling features. To track user information and ensure data accuracy and security, I utilized a NoSQL database, MongoDB. Additionally, I integrated these features with a React Native frontend.`,
   companylogo:`${Twiniot}`,
-  skills:'AWS, Node, Express, Socket, WebRTC, MongoDB'
+  skills:'Amazone Web Services, NodeJs, ExpressJs, Socket, WebRTC, MongoDB'
   }
 ]
 
