@@ -32,7 +32,7 @@ function Home() {
         "MERN Stack Developer",
         "Android Developer",
         "Software Developer",
-      ],
+          ],
     });
   }, []);
   let text, value;
@@ -108,7 +108,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className="about internship " id="internship">
+      <section className=" internship " id="internship">
         <div className="max-width">
           <h2 className="title">My Experience</h2>
           <div className="about-content">
@@ -247,7 +247,7 @@ function Home() {
           </div>
         </section>
       </div>
-      <section className="about teams " id="teams">
+      <section className="teams " id="teams">
         <div className="max-width">
           <h2 className="title">My Projects</h2>
           <Projects />
