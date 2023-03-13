@@ -108,7 +108,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className="internship about" id="internship">
+      <section className="about internship " id="internship">
         <div className="max-width">
           <h2 className="title">My Experience</h2>
           <div className="about-content">
@@ -247,7 +247,7 @@ function Home() {
           </div>
         </section>
       </div>
-      <section className="teams about" id="teams">
+      <section className="about teams " id="teams">
         <div className="max-width">
           <h2 className="title">My Projects</h2>
           <Projects />
