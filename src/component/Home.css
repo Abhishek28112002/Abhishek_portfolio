@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+   
 }
 html{
     scroll-behavior: smooth;
@@ -16,6 +17,7 @@ html{
 /* all similar content styling codes */
 section{
     padding: 100px 0;
+   
 }
 .max-width{
     max-width: 1300px;
@@ -42,6 +44,7 @@ section .title{
     margin-bottom: 60px;
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
+    animation: sliderRight 1s ease forwards;
 }
 section .title::before{
     content: "";
@@ -70,6 +73,7 @@ section .title::after{
     padding: 30px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
+    animation: sliderRight 1s ease forwards;
 }
 .navbar .max-width{
     display: flex;
@@ -545,5 +549,16 @@ footer span a:hover{
         width: 35px;
         font-size: 23px;
         line-height: 38px;
+    }
+}
+
+@keyframes sliderRight{
+    0%{
+        transform:translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform:translateX(0);
+        opacity: 1;
     }
 }

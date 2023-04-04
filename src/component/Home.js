@@ -125,7 +125,7 @@ function Home() {
             </div>
             <div className="column right">
               <div className="text">
-                I'm abhishek Mittal <span>Nice to meet you.</span>
+                I'm Abhishek Mittal <span>Nice to meet you.</span>
               </div>
               <p>
                 {" "}
@@ -141,7 +141,7 @@ function Home() {
                 I'm quietly confident, naturally curious, and perpetually
                 working on improving my chops one design problem at a time.
               </p>
-              <a href={file} target="_blank" rel="noreferrer">
+              <a href={file} target="_blank" rel="noreferrer" style={{boxShadow: "0 0 20px crimson",borderRadius:'3rem',textDecoration:'none'}}>
                 Download CV
               </a>
             </div>
