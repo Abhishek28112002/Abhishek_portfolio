@@ -55,14 +55,14 @@ const [visibledata,setvisibledata]=useState(data[0]);
     }} className='project'>
         <div style={{display:'flex' , cursor:'pointer'}} className='items'>
     <ListGroup>
-      <ListGroup.Item onClick={()=>setvisibledata(data[0])}>SECURING NEURAL NETWORK EXECUTION
+      <ListGroup.Item onClick={()=>setvisibledata(data[0])} className="project_bar">SECURING NEURAL NETWORK EXECUTION
 THROUGH PARALLELIZATION</ListGroup.Item>
-<ListGroup.Item onClick={()=>setvisibledata(data[1])}>SPACE DATA SCIENCE AUTO CLASSIFIER FOR
+<ListGroup.Item onClick={()=>setvisibledata(data[1])}  className="project_bar">SPACE DATA SCIENCE AUTO CLASSIFIER FOR
 KEPLARS TCE</ListGroup.Item>
-      <ListGroup.Item onClick={()=>setvisibledata(data[2])}>DOJU Android App</ListGroup.Item>
-      <ListGroup.Item onClick={()=>setvisibledata(data[3])}>Stringar Social Web Application</ListGroup.Item>
-      <ListGroup.Item onClick={()=>setvisibledata(data[4])}>Wordle Game</ListGroup.Item>
-      <ListGroup.Item onClick={()=>setvisibledata(data[5])}>TO-DO List</ListGroup.Item>
+      <ListGroup.Item onClick={()=>setvisibledata(data[2])}  className="project_bar">DOJU Android App</ListGroup.Item>
+      <ListGroup.Item onClick={()=>setvisibledata(data[3])}  className="project_bar">Stringar Social Web Application</ListGroup.Item>
+      <ListGroup.Item onClick={()=>setvisibledata(data[4])}  className="project_bar">Wordle Game</ListGroup.Item>
+      <ListGroup.Item onClick={()=>setvisibledata(data[5])}  className="project_bar">TO-DO List</ListGroup.Item>
     </ListGroup>
     </div >
     <div style={{display:'flex'}} className='items'>

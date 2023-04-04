@@ -181,7 +181,7 @@ function Home() {
                   also after the project's completion. I guarantee a commitment
                   during work on your project.
                 </p>
-                <a href="#">Read more</a>
+               
               </div>
               <div
                 className="column right"
@@ -359,7 +359,7 @@ function Home() {
       <footer>
         <span>
           Created By Abhishek mittal |{" "}
-          <span className="far fa-copyright"></span> 2020 All rights reserved.
+          <span className="far fa-copyright"></span> 2023 All rights reserved.
         </span>
       </footer>
     </div>

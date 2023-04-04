@@ -1,6 +1,10 @@
 .items{
     width: 50%;
 }
+.project_bar:hover{
+    background-color: crimson;
+    color: white;
+}
 
 @media (max-width: 800px) {
     .project {

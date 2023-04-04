@@ -15,8 +15,10 @@ function ProjectCard({item}) {
             <h5 style={{color:"crimson",marginRight:"10px"}}>Skills:   </h5>
             <p>{item.Skills}</p>
         </div>
-        <div style={{marginTop:'-5px',float:'right'}}>
-          { item.githublink &&  <a href={item.githublink} target="_blank" ><img src={Github}  width="30px" style={{backgroundColor:'white',borderRadius:'10px',padding:'1px'}} /></a>}
+        <div style={{marginLeft:'10px'}}>
+          { item.githublink &&  <a href={item.githublink} target="_blank" ><img src={Github}  width="25px" style={{backgroundColor:'white',borderRadius:'10px',padding:'1px'}} /></a>}
+          </div>
+          <div style={{marginLeft:'10px'}}>
            { item.livelink && <a href={item.livelink} target="_blank">live link</a>}
         </div>
         </div>
