@@ -12,7 +12,12 @@ html{
     scroll-behavior: smooth;
 }
 
-
+:root
+{
+    --main-color:crimson;
+    --text-color:white;
+    --bg-color:black;
+}
 
 /* all similar content styling codes */
 section{
@@ -44,7 +49,7 @@ section .title{
     margin-bottom: 60px;
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
-    animation: sliderRight 1s ease forwards;
+  
 }
 section .title::before{
     content: "";
@@ -53,7 +58,7 @@ section .title::before{
     left: 50%;
     width: 180px;
     height: 3px;
-    background: #111;
+    background: var(--bg-color);
     transform: translateX(-50%);
 }
 section .title::after{
@@ -61,10 +66,11 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    color: var(--main-color);
     padding: 0 5px;
-    background: #fff;
+    background:var(--text-color);
     transform: translateX(-50%);
+    animation: sliderRight 1s ease forwards;
 }
 
 /* navbar styling */
@@ -81,11 +87,20 @@ section .title::after{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: rgb(14, 23, 208);
+   
     font-size: 35px;
     font-weight: 600;
 }
 
+.handlebar{
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        gap: 10px;
+        animation: sliderRight 1s ease forwards;
+        text-decoration: none;
+        background-color:none;
+}
 
 .navbar .menu li{
     list-style: none;
@@ -100,12 +115,13 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: crimson;
+    color: var(--main-color);
 }
 
 /* porject styling */
 .teams .title::after{
     content: "what i have done";
+    
 }
  .cardimg{
     height: 500px;
@@ -120,9 +136,9 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background-color: #111;
+    background-color: var(--bg-color);
     height: 100vh;
-    color: #fff;
+    color:var(--text-color);
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
@@ -148,13 +164,13 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: crimson;
+    color: var(--main-color);
     font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
     background: crimson;
-    color: #fff;
+    color:var(--text-color);
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
@@ -164,7 +180,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: crimson;
+    color: var(--main-color);
     background: none;
 }
 .internship .title::after{
@@ -192,7 +208,7 @@ section .title::after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: crimson;
+    color: var(--main-color);
 }
 .about .about-content .right p{
     text-align: justify;
@@ -200,7 +216,7 @@ section .title::after{
 .about .about-content .right a{
     display: inline-block;
     background: crimson;
-    color: #fff;
+    color:var(--text-color);
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
@@ -210,7 +226,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: crimson;
+    color: var(--main-color);
     background: none;
 }
  
@@ -223,6 +239,7 @@ section .title::after{
 }
 .skills .title::after{
     content: "what i know";
+   
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -238,7 +255,7 @@ section .title::after{
 .skills .skills-content .left a{
     display: inline-block;
     background: crimson;
-    color: #fff;
+    color:var(--text-color);
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
@@ -248,7 +265,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
-    color: crimson;
+    color: var(--main-color);
     background: none;
 }
 .skills .skills-content .right .bars{
@@ -269,6 +286,7 @@ section .title::after{
     width: 100%;
     background: lightgrey;
     position: relative;
+    
 }
 .skills .skills-content .right .line::before{
     content: "";
@@ -340,7 +358,7 @@ section .title::after{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: crimson;
+    color: var(--main-color);
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -389,7 +407,7 @@ section .title::after{
   align-items: center;
 }
 .right form .button-area button{
-  color: #fff;
+  color:var(--text-color);
   display: block;
   width: 160px!important;
   height: 45px;
@@ -404,18 +422,18 @@ section .title::after{
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover{
-  color: crimson;
+  color: var(--main-color);
   background: none;
 }
 /* footer section styling */
 footer{
-    background: #111;
+    background: var(--bg-color);
     padding: 15px 23px;
-    color: #fff;
+    color:var(--text-color);
     text-align: center;
 }
 footer span a{
-    color: crimson;
+    color: var(--main-color);
     text-decoration: none;
 }
 footer span a:hover{
@@ -440,7 +458,7 @@ footer span a:hover{
     .menu-btn{
         display: block;
         z-index: 999;
-        background-color: #fff;
+        background-color:var(--text-color);
     }
     .menu-btn i.active:before{
         content: "\f00d";
@@ -451,8 +469,8 @@ footer span a:hover{
         width: 100%;
         left: -100%;
         top: 0;
-        background: #fff;
-        color:#111;
+        background:var(--text-color);
+        color:var(--bg-color);
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
@@ -522,6 +540,13 @@ footer span a:hover{
 }
 
 @media (max-width: 500px) {
+    .teams .title::after{
+        content: "My Work";
+    }
+    
+    .internship .title::after{
+        content: "Accomplishments";
+    }
     .home .home-content .text-2{
         font-size: 50px;
     }

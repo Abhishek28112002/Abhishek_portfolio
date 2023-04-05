@@ -13,6 +13,7 @@ import Linkdin from "../assets/linkedin.svg";
 import Gmail from "../assets/gmail.svg";
 import Insta from "../assets/instagram.svg";
 import Internship from "./Internship";
+import Github from '../assets/skills/github-icon.svg'
 function Home() {
   const [user, setuser] = useState({
     name: "",
@@ -98,14 +99,54 @@ function Home() {
       </Navbar>
 
       <section className="home" id="home">
-        <div className="max-width">
+        <div className="max-width" style={{display:'block'}}>
           <div className="home-content">
             <div className="text-1">Hello, my name is</div>
             <div className="text-2">Abhishek Mittal</div>
             <div className="text-3">
               And I'm a <span ref={textRef}></span>
             </div>
+           
           </div>
+          <div
+            className="handlebar"
+              >
+                <div className="head">
+                  <a
+                    href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSKkVJwqkLSgbrVWNlJbtlVdtCDxTrfPvGgtJGsGxZlWtJXxtxflpJpjbjMtQqGHwMKRqjWW"
+                    target="_blank"
+                  >
+                    <img width="40px" src={Gmail} />
+                  </a>
+                </div>
+
+                <div className="head">
+                 
+                  <a
+                    href="https://www.linkedin.com/in/abhishek-mittal-979726203/"
+                    target="_blank"
+                  >
+                    <img width="40px" src={Linkdin} />
+                  </a>
+                </div>
+
+                <div className="head">
+                  <a
+                    href="https://www.instagram.com/abhishekmittal2002/"
+                    target="_blank"
+                  >
+                    <img width="40px" src={Insta} />
+                  </a>
+                </div>
+                <div className="head">
+                  <a
+                    href="https://github.com/Abhishek28112002"
+                    target="_blank"
+                  >
+                    <img width="35px" src={Github} style={{backgroundColor:'white',borderRadius:'10px'}}  />
+                  </a>
+                </div>
+              </div>
         </div>
       </section>
       <section className=" internship " id="internship">
@@ -347,7 +388,7 @@ function Home() {
                   ></textarea>
                 </div>
                 <div className="button-area">
-                  <button type="submit" onClick={postdata}>
+                  <button type="submit" onClick={postdata} style={{boxShadow: "0 0 20px crimson", borderRadius:'3rem'}}>
                     Send message
                   </button>
                 </div>
