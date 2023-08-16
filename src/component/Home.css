@@ -286,6 +286,7 @@ section .title::after{
     width: 100%;
     background: lightgrey;
     position: relative;
+  transition-delay:1s ;
     
 }
 .skills .skills-content .right .line::before{
@@ -294,6 +295,7 @@ section .title::after{
     height: 100%;
     left: 0;
     top: 0;
+    transition-delay:1s ;
     background: crimson;
 }
 .skills-content .right .html::before{

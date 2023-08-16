@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Projects from "./Projects";
-import file from "../assets/Abhishek_Mittal_Frontend_resume.pdf";
+import file from "../assets/Abhishek_MIttal_IIT_Dharwad_2024.pdf";
 import { init } from "ityped";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
@@ -229,8 +229,8 @@ function Home() {
                 style={{
                   backgroundColor: "black",
                   borderRadius: "10px",
-                  color: "silver",
-                  padding: "5px 10px",
+                  color: "white",
+                  padding: "15px 20px",
                   TextAlign: "center",
                 }}
               >
