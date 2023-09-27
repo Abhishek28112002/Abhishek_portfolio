@@ -95,8 +95,8 @@ section .title::after{
 .handlebar{
         display: flex;
         flex-direction: row;
-        margin-top: 10px;
-        gap: 10px;
+        margin-top: 20px;
+        gap: 20px;
         animation: sliderRight 1s ease forwards;
         text-decoration: none;
         background-color:none;

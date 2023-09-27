@@ -8,7 +8,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { useEffect, useRef, useState } from "react";
-import img2 from "../assets/Images/abhi12.jpg";
+import img2 from "../assets/Abhishek_Image.jpeg";
 import Linkdin from "../assets/linkedin.svg";
 import Gmail from "../assets/gmail.svg";
 import Insta from "../assets/instagram.svg";
@@ -101,7 +101,7 @@ function Home() {
       <section className="home" id="home">
         <div className="max-width" style={{display:'block'}}>
           <div className="home-content">
-            <div className="text-1">Hello, my name is</div>
+            <div className="text-1">Hello 👋 , my name is</div>
             <div className="text-2">Abhishek Mittal</div>
             <div className="text-3">
               And I'm a <span ref={textRef}></span>
@@ -143,7 +143,8 @@ function Home() {
                     href="https://github.com/Abhishek28112002"
                     target="_blank"
                   >
-                    <img width="35px" src={Github} style={{backgroundColor:'white',borderRadius:'10px'}}  />
+                    
+                    <img width="40px" src={Github}   />
                   </a>
                 </div>
               </div>
@@ -151,7 +152,7 @@ function Home() {
       </section>
       <section className=" internship " id="internship">
         <div className="max-width">
-          <h2 className="title">My Experience</h2>
+          <h2 className="title">My Experience 💼</h2>
           <div className="about-content">
             <Internship></Internship>
           </div>
@@ -159,7 +160,7 @@ function Home() {
       </section>
       <section className="about" id="about">
         <div className="max-width">
-          <h2 className="title">About me</h2>
+          <h2 className="title">About me 🧑‍💻</h2>
           <div className="about-content">
             <div className="column left">
               <img src={img2} alt="" style={{ borderRadius: "50px" }}></img>
@@ -182,7 +183,7 @@ function Home() {
                 I'm quietly confident, naturally curious, and perpetually
                 working on improving my chops one design problem at a time.
               </p>
-              <a href={file} target="_blank" rel="noreferrer" style={{boxShadow: "0 0 20px crimson",borderRadius:'3rem',textDecoration:'none'}}>
+              <a href='https://drive.google.com/file/d/1yWpzGXcSr7wNFwP_pmHyafdHd1urQBRi/view?usp=sharing' target="_blank" rel="noreferrer" style={{boxShadow: "0 0 20px crimson",borderRadius:'3rem',textDecoration:'none'}}>
                 Download CV
               </a>
             </div>
@@ -193,7 +194,7 @@ function Home() {
       <div>
         <section className="skills" id="skills">
           <div className="max-width">
-            <h2 className="title">My skills</h2>
+            <h2 className="title">My skills 💪🏻</h2>
             <div className="skills-content">
               <div className="column left">
                 <div className="text">My creative skills & experiences.</div>
@@ -290,13 +291,13 @@ function Home() {
       </div>
       <section className="teams " id="teams">
         <div className="max-width">
-          <h2 className="title">My Projects</h2>
+          <h2 className="title">My Projects 🎖️</h2>
           <Projects />
         </div>
       </section>
       <section className="contact" id="contact">
         <div className="max-width">
-          <h2 className="title">Contact me</h2>
+          <h2 className="title">Contact me 🤝</h2>
           <div className="contact-content">
             <div className="column left">
               <div className="text">Get in Touch</div>
@@ -309,29 +310,24 @@ function Home() {
               </p>
 
               <div
-                style={{
-                  display: "flex",
-                  flexDirection: "row",
-                  marginTop: "10px",
-                  gap: "10px",
-                }}
+            className="handlebar"
               >
                 <div className="head">
                   <a
                     href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSKkVJwqkLSgbrVWNlJbtlVdtCDxTrfPvGgtJGsGxZlWtJXxtxflpJpjbjMtQqGHwMKRqjWW"
                     target="_blank"
                   >
-                    <img width="30px" src={Gmail} />
+                    <img width="20px" src={Gmail} />
                   </a>
                 </div>
 
                 <div className="head">
-                  {" "}
+                 
                   <a
                     href="https://www.linkedin.com/in/abhishek-mittal-979726203/"
                     target="_blank"
                   >
-                    <img width="30px" src={Linkdin} />
+                    <img width="20px" src={Linkdin} />
                   </a>
                 </div>
 
@@ -340,7 +336,16 @@ function Home() {
                     href="https://www.instagram.com/abhishekmittal2002/"
                     target="_blank"
                   >
-                    <img width="30px" src={Insta} />
+                    <img width="20px" src={Insta} />
+                  </a>
+                </div>
+                <div className="head">
+                  <a
+                    href="https://github.com/Abhishek28112002"
+                    target="_blank"
+                  >
+                    
+                    <img width="20px" src={Github}   />
                   </a>
                 </div>
               </div>

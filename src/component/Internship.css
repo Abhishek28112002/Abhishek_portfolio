@@ -2,13 +2,22 @@
     display:flex;
     flex-direction:row;
     width: 100%;
-    gap:2%
+    gap:20px;
+    padding:20px 10px;
+    justify-content: space-between;
 }
+.Internship_Description{
+  display: none;
+}
+
 .internship_card:hover {
 color: white;
 background-color: rgb(0, 0, 0);
 
-transform: translate(0px,20px);
+transition-delay: 0.2s;
+}
+.Internship_Description:hover{
+  display: block;
 }
 
 @media (max-width: 800px) {
