@@ -1,11 +1,23 @@
 .items{
     width: 50%;
+    overflow: hidden;
 }
 .project_bar:hover{
     background-color: crimson;
     color: white;
 }
-
+.project_bar{
+    flex: 1 1;
+    padding: 10px;
+    display: flex;
+    text-align: flex-start;
+    border-bottom: 1px solid #faebeb;
+    justify-content: flex-start;
+    align-items: center;
+}
+.project_bar:last-child{
+    border-bottom: none;
+}
 @media (max-width: 800px) {
     .project {
       flex-direction: column;

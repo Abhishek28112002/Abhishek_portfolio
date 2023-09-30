@@ -57,52 +57,14 @@ function Projects() {
       style={{ display: "flex", justifyContent: "space-between" }}
       className="project"
     >
-      <div style={{ display: "flex", cursor: "pointer",borderRadius: '8px',
+      <div style={{ display: "flex",flexDirection:'column', cursor: "pointer",borderRadius: '8px',justifyContent:'space-between',
 border: '1px solid #DCDCDC'}} className="items">
-        <ListGroup >
-          <ListGroup.Item
-            onClick={() => setvisibledata(data[0])}
-            className="project_bar"
-            style={{borderTop:'1px solid rgba(0,0,0,.125)'}}
-          >
-            SECURING NEURAL NETWORK EXECUTION THROUGH PARALLELIZATION
-          </ListGroup.Item>
-          <ListGroup.Item
-            onClick={() => setvisibledata(data[1])}
-            className="project_bar"
-            style={{borderTop:'1px solid rgba(0,0,0,.125)'}}
-          >
-            SPACE DATA SCIENCE AUTO CLASSIFIER FOR KEPLARS TCE
-          </ListGroup.Item>
-          <ListGroup.Item
-            onClick={() => setvisibledata(data[2])}
-            className="project_bar"
-            style={{borderTop:'1px solid rgba(0,0,0,.125)'}}
-          >
-            DOJU Android App
-          </ListGroup.Item>
-          <ListGroup.Item
-            onClick={() => setvisibledata(data[3])}
-            className="project_bar"
-            style={{borderTop:'1px solid rgba(0,0,0,.125)'}}
-          >
-            Stringar Social Web Application
-          </ListGroup.Item>
-          <ListGroup.Item
-            onClick={() => setvisibledata(data[4])}
-            className="project_bar"
-            style={{borderTop:'1px solid rgba(0,0,0,.125)'}}
-          >
-            Wordle Game
-          </ListGroup.Item>
-          <ListGroup.Item
-            onClick={() => setvisibledata(data[5])}
-            className="project_bar"
-            style={{borderTop:'1px solid rgba(0,0,0,.125)'}}
-          >
-            TO-DO List
-          </ListGroup.Item>
-        </ListGroup>
+  {data.map((item,index)=>(
+<div onClick={() => setvisibledata(item)}
+            className="project_bar">{item.title}</div>
+
+  ))}
+       
       </div>
       <div style={{ display: "flex" }} className="items">
         <ProjctCard item={visibledata} />

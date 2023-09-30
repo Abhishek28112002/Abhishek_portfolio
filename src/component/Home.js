@@ -14,6 +14,7 @@ import Gmail from "../assets/gmail.svg";
 import Insta from "../assets/instagram.svg";
 import Internship from "./Internship";
 import Github from '../assets/skills/github-icon.svg'
+import Skills from "./skills";
 function Home() {
   const [user, setuser] = useState({
     name: "",
@@ -21,6 +22,7 @@ function Home() {
     subject: "",
     message: "",
   });
+
   const textRef = useRef();
   useEffect(() => {
     init(textRef.current, {
@@ -33,6 +35,7 @@ function Home() {
         "MERN Stack Developer",
         "Android Developer",
         "Software Developer",
+        "Freelancer"
           ],
     });
   }, []);
@@ -64,7 +67,8 @@ function Home() {
   };
 
   return (
-    <div>
+    <div >
+
       <Navbar
         collapseOnSelect
         expand="lg"
@@ -166,23 +170,20 @@ function Home() {
               <img src={img2} alt="" style={{ borderRadius: "50px" }}></img>
             </div>
             <div className="column right">
-              <div className="text">
-                I'm Abhishek Mittal <span>Nice to meet you.</span>
-              </div>
-              <p>
-                {" "}
-                I am persuing BTech from iit dharwad in mechanical department.
-              </p>
+  <div className="text">
+    I'm Abhishek Mittal from SawaiMadhopur, Rajasthan<span>  Nice to meet you.</span>
+  </div>
+  <p>
+    {" "}
+    Currently pursuing a BTech degree at IIT Dharwad 
+  </p>
 
-              <p>
-                I'm very ambitious Software developer looking for a role in
-                established IT company with the opportunity to work with the
-                latest technologies on challenging and diverse projects.
-              </p>
-              <p align="LEFT">
-                I'm quietly confident, naturally curious, and perpetually
-                working on improving my chops one design problem at a time.
-              </p>
+  <p>
+    I'm a highly ambitious Software Developer, actively seeking opportunities to work with established IT companies. I'm passionate about utilizing the latest technologies to tackle challenging and diverse projects.
+  </p>
+  <p align="LEFT">
+    I possess a quiet confidence, a natural curiosity, and a continuous drive to enhance my skills, tackling design problems one step at a time.
+  </p>
               <a href='https://drive.google.com/file/d/1yWpzGXcSr7wNFwP_pmHyafdHd1urQBRi/view?usp=sharing' target="_blank" rel="noreferrer" style={{boxShadow: "0 0 20px crimson",borderRadius:'3rem',textDecoration:'none'}}>
                 Download CV
               </a>
@@ -191,104 +192,14 @@ function Home() {
         </div>
       </section>
 
-      <div>
+
         <section className="skills" id="skills">
           <div className="max-width">
             <h2 className="title">My skills 💪🏻</h2>
-            <div className="skills-content">
-              <div className="column left">
-                <div className="text">My creative skills & experiences.</div>
-                <p>
-                  As a highly skilled software developer, I possess expertise in
-                  various fields of development, including front-end
-                  technologies such as React, React Native, HTML5, CSS3,
-                  JavaScript, Bootstrap, and TypeScript. Additionally, my
-                  experience in back-end development and database management,
-                  using AWS, Node.js, Express.js, and MongoDB, makes me a
-                  well-rounded developer. My proficiency in software
-                  development, including languages such as C++, Java, data
-                  structures, algorithms, Python, and MySQL, demonstrates my
-                  ability to work on complex projects and deliver high-quality
-                  results.
-                </p>
-                <p>
-                  I am constantly seeking to expand my knowledge and skills, and
-                  I am eager to bring my expertise to your team.
-                </p>
-                <p>
-                  I’m not a designer but I have a good sense of aesthetics, and
-                  experience in responsive, mobile-first web design. I put
-                  special effort into optimizing my code and providing the best
-                  user experience. I would love to give you any kind of support
-                  also after the project's completion. I guarantee a commitment
-                  during work on your project.
-                </p>
-               
-              </div>
-              <div
-                className="column right"
-                style={{
-                  backgroundColor: "black",
-                  borderRadius: "10px",
-                  color: "white",
-                  padding: "15px 20px",
-                  TextAlign: "center",
-                }}
-              >
-                <div className="bars">
-                  <div className="info">
-                    <span>C, C++, Python, Java</span>
-                  </div>
-                  <div className="line c"></div>
-                </div>
-                <div className="bars">
-                  <div className="info">
-                    <span>Data structure & Algorithm Analysis</span>
-                  </div>
-                  <div className="line ds"></div>
-                </div>
-
-                <div className="bars">
-                  <div className="info">
-                    <span>HTML, CSS, JavaScript</span>
-                  </div>
-                  <div className="line js"></div>
-                </div>
-                <div className="bars">
-                  <div className="info">
-                    <span>React JS , React Native</span>
-                  </div>
-                  <div className="line react"></div>
-                </div>
-                <div className="bars">
-                  <div className="info">
-                    <span>Node Js , Express Js</span>
-                  </div>
-                  <div className="line Node"></div>
-                </div>
-                <div className="bars">
-                  <div className="info">
-                    <span>Socket.io, WebRTC</span>
-                  </div>
-                  <div className="line Node"></div>
-                </div>
-                <div className="bars">
-                  <div className="info">
-                    <span>AWS, Lambda function, DynamoDB, S3</span>
-                  </div>
-                  <div className="line Node"></div>
-                </div>
-                <div className="bars">
-                  <div className="info">
-                    <span>MySQL, MongoDB</span>
-                  </div>
-                  <div className="line mysql"></div>
-                </div>
-              </div>
-            </div>
+            <Skills />
           </div>
         </section>
-      </div>
+
       <section className="teams " id="teams">
         <div className="max-width">
           <h2 className="title">My Projects 🎖️</h2>

@@ -11,7 +11,6 @@
 html{
     scroll-behavior: smooth;
 }
-
 :root
 {
     --main-color:crimson;
@@ -19,9 +18,10 @@ html{
     --bg-color:black;
 }
 
+
 /* all similar content styling codes */
 section{
-    padding: 100px 0;
+    padding: 50px 0;
    
 }
 .max-width{
@@ -191,7 +191,7 @@ section .title::after{
     content: "who i am";
 }
 .about .about-content .left{
-    width: 45%;
+    width: 40%;
 }
 .about .about-content .left img{
     height: 400px;
@@ -200,7 +200,7 @@ section .title::after{
     border-radius: 6px;
 }
 .about .about-content .right{
-    width: 55%;
+    width: 60%;
 }
 .about .about-content .right .text{
     font-size: 25px;
