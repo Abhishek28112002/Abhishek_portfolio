@@ -49,6 +49,13 @@ function Projects() {
       livelink: "https://abhitodo.netlify.app",
       Skills: "React , JavaScript, Localstorage",
     },
+    {
+      title:'Finding SFC using Machine Learning',
+      description:
+        "I conducted a simulation using Ansys Workbench to analyze the stress concentration distribution within a bending beam. Additionally, I developed a linear regression model in Python, utilizing libraries such as pandas, Scikit-Learn, and NumPy for model training. The model was trained with a dataset containing over 900 simulations, incorporating the use of high-performance computing (HCP). This rigorous training process resulted in an impressive model accuracy of 97%.",
+        githublink: "https://github.com/Abhishek28112002/Simulated-a-model-using-ansys-workbench-to-find-stress-concentartion-distribution-in-a-bending-beam",
+      Skills: "Machine learning, Deep Learning, Python, Ansys ",
+    }
   ];
   const [visibledata, setvisibledata] = useState(data[0]);
 

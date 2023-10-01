@@ -31,11 +31,11 @@ function Home() {
       backSpeed: 100,
       loop: true,
       strings: [
-        "Student",
-        "MERN Stack Developer",
-        "Android Developer",
-        "Software Developer",
-        "Freelancer"
+        " Student",
+        " MERN Stack Developer",
+        " Android Developer",
+        " Software Developer",
+        " Freelancer"
           ],
     });
   }, []);
@@ -89,7 +89,7 @@ function Home() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="#internship">Experience</Nav.Link>
-              <Nav.Link href="#teams">My Projects</Nav.Link>
+              <Nav.Link href="#projects">My Projects</Nav.Link>
               <Nav.Link href="#skills">Skills</Nav.Link>
             </Nav>
             <Nav>
@@ -108,7 +108,7 @@ function Home() {
             <div className="text-1">Hello 👋 , my name is</div>
             <div className="text-2">Abhishek Mittal</div>
             <div className="text-3">
-              And I'm a <span ref={textRef}></span>
+              And I'm  <span ref={textRef} style={{marginLeft:'10px'}}></span>
             </div>
            
           </div>
@@ -154,14 +154,6 @@ function Home() {
               </div>
         </div>
       </section>
-      <section className=" internship " id="internship">
-        <div className="max-width">
-          <h2 className="title">My Experience 💼</h2>
-          <div className="about-content">
-            <Internship></Internship>
-          </div>
-        </div>
-      </section>
       <section className="about" id="about">
         <div className="max-width">
           <h2 className="title">About me 🧑‍💻</h2>
@@ -171,11 +163,11 @@ function Home() {
             </div>
             <div className="column right">
   <div className="text">
-    I'm Abhishek Mittal from SawaiMadhopur, Rajasthan<span>  Nice to meet you.</span>
+    I'm Abhishek Mittal from SawaiMadhopur, Rajasthan <span>  Nice to meet you.</span>
   </div>
   <p>
     {" "}
-    Currently pursuing a BTech degree at IIT Dharwad 
+    Currently pursuing a BTech degree 🎓 at IIT Dharwad 
   </p>
 
   <p>
@@ -191,6 +183,15 @@ function Home() {
           </div>
         </div>
       </section>
+      <section className=" internship " id="internship">
+        <div className="max-width">
+          <h2 className="title">My Experience 💼</h2>
+          <div className="about-content">
+            <Internship></Internship>
+          </div>
+        </div>
+      </section>
+     
 
 
         <section className="skills" id="skills">
@@ -200,7 +201,7 @@ function Home() {
           </div>
         </section>
 
-      <section className="teams " id="teams">
+      <section className="projects " id="projects">
         <div className="max-width">
           <h2 className="title">My Projects 🎖️</h2>
           <Projects />
@@ -315,8 +316,7 @@ function Home() {
       </section>
       <footer>
         <span>
-          Created By Abhishek mittal |{" "}
-          <span className="far fa-copyright"></span> 2023 All rights reserved.
+          Created By Abhishek mittal ( MERN Stack Developer)
         </span>
       </footer>
     </div>

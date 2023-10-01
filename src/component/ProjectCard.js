@@ -4,7 +4,10 @@ import 'boxicons'
 
 function ProjectCard({item}) {
   return (
-    <div style={{backgroundColor:"black",color:'white',padding:'10px',borderRadius:'10px',marginLeft:'4px',width:'100%'}}>
+    <div style={{backgroundColor:"black",color:'white',padding:'10px',borderRadius:'10px',marginLeft:'4px',width:'100%',display: "flex",
+    flexDirection: 'column',
+    justifyContent:'space-between',
+    alignItems: 'center'}}>
         <div style={{textAlign:"center"}}>
             <h5>{item.title}</h5>
         </div>
