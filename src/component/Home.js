@@ -1,14 +1,13 @@
 import React from "react";
 import "./Home.css";
 import Projects from "./Projects";
-import file from "../assets/Abhishek_MIttal_IIT_Dharwad_2024.pdf";
 import { init } from "ityped";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { useEffect, useRef, useState } from "react";
-import img2 from "../assets/Abhishek_Image.jpeg";
+import img2 from "../assets/Abhishek_image.JPG"
 import Linkdin from "../assets/linkedin.svg";
 import Gmail from "../assets/gmail.svg";
 import Insta from "../assets/instagram.svg";
