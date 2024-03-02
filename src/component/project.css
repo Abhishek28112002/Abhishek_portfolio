@@ -2,8 +2,13 @@
     width: 50%;
     overflow: hidden;
 }
+
 .project_bar:hover{
     background-color: crimson;
+    color: white;
+}
+.selected{
+    background-color: red;
     color: white;
 }
 .project_bar{

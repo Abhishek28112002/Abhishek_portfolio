@@ -4,6 +4,8 @@ import Projects from "./Projects";
 import { init } from "ityped";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
+
+import PortfolioImage from '../assets/AnimationPortfolio/PINBG.png'
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { useEffect, useRef, useState } from "react";
@@ -152,6 +154,7 @@ function Home() {
                 </div>
               </div>
         </div>
+        <img src={PortfolioImage} class="PIweb"></img>
       </section>
       <section className="about" id="about">
         <div className="max-width">
@@ -186,7 +189,7 @@ function Home() {
         <div className="max-width">
           <h2 className="title">My Experience 💼</h2>
           <div className="about-content">
-            <Internship></Internship>
+            <Internship/>
           </div>
         </div>
       </section>

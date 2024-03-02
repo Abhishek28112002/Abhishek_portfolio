@@ -58,7 +58,7 @@ function Projects() {
     }
   ];
   const [visibledata, setvisibledata] = useState(data[0]);
-
+ const [selectedIndex, setselectedIndex] =useState(0);
   return (
     <div
       style={{ display: "flex", justifyContent: "space-between" }}
@@ -67,8 +67,10 @@ function Projects() {
       <div style={{ display: "flex",flexDirection:'column', cursor: "pointer",borderRadius: '8px',justifyContent:'space-between',
 border: '1px solid #DCDCDC'}} className="items">
   {data.map((item,index)=>(
-<div onClick={() => setvisibledata(item)}
-            className="project_bar">{item.title}</div>
+<div onClick={() => {
+  setvisibledata(item);
+  setselectedIndex(index)}}
+            className={`project_bar ${selectedIndex==index && `selected`}`}>{item.title}</div>
 
   ))}
        

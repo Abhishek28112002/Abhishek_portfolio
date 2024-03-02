@@ -456,6 +456,9 @@ footer span a:hover{
     .max-width{
         padding: 0 50px;
     }
+    .PIweb{
+        display: none;
+    }
 }
 @media (max-width: 947px){
     .menu-btn{
