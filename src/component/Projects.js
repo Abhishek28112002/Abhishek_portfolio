@@ -12,6 +12,22 @@ function Projects() {
         "https://github.com/Abhishek28112002/Securing-Neural-Network-Execution-through-Assisted--Parallelization",
       Skills: "C++, Data structure and Algorithms, Python",
     },
+    {
+      title: "CampusFoodies",
+      description:
+        "I developed the CampusFoodies project, an Android app and website, using ReactNative and ReactJS. The app features Redux store integration for seamless cart item management and a backend hosted on AWS serverless architecture with Node.js for robust API development. I also implemented a custom notification system using Expo push notifications to enhance user engagement and integrated Paytm UPI Smart Intent for seamless payment collection during order placement.",
+      githublink:
+        "https://github.com/Abhishek28112002/CampusFoodies",
+      Skills: "React Native, Redux, NodeJS, ExpressJS, AWS, Firbase, Expo",
+    },
+    {
+      title: "AIInterview",
+      description:
+        "I  developed the AIInterview project, a web application using ReactJS. The frontend allows users to select their skills, which generates a customized interview of 10-15 questions. The application activates the user's camera and microphone, enabling them to practice their responses in a realistic interview setting. This project helps users enhance their interview skills by providing a platform to evaluate their confidence and communication abilities.",
+      githublink:
+        "https://github.com/Abhishek28112002/AIInterview",
+      Skills: "ReactJS, Tailwind",
+    },
 
     {
       title: "SPACE DATA SCIENCE AUTO CLASSIFIER FOR  KEPLARS TCE",

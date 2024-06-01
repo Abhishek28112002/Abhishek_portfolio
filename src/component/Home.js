@@ -32,10 +32,9 @@ function Home() {
       backSpeed: 100,
       loop: true,
       strings: [
-        " Student",
+        " Software Developer",
         " MERN Stack Developer",
         " Android Developer",
-        " Software Developer",
         " Freelancer"
           ],
     });
@@ -169,7 +168,7 @@ function Home() {
   </div>
   <p>
     {" "}
-    Currently pursuing a BTech degree 🎓 at IIT Dharwad 
+    I am a recent graduate 🎓 with a B.Tech degree from IIT Dharwad. 
   </p>
 
   <p>
@@ -178,7 +177,7 @@ function Home() {
   <p align="LEFT">
     I possess a quiet confidence, a natural curiosity, and a continuous drive to enhance my skills, tackling design problems one step at a time.
   </p>
-              <a href='https://drive.google.com/file/d/1yWpzGXcSr7wNFwP_pmHyafdHd1urQBRi/view?usp=sharing' target="_blank" rel="noreferrer" style={{boxShadow: "0 0 20px crimson",borderRadius:'3rem',textDecoration:'none'}}>
+              <a href='https://drive.google.com/file/d/1uelDKO6gEZFB5ZTv_vr9j6KgQ6p9VOVZ/view?usp=sharing' target="_blank" rel="noreferrer" style={{boxShadow: "0 0 20px crimson",borderRadius:'3rem',textDecoration:'none'}}>
                 Download CV
               </a>
             </div>

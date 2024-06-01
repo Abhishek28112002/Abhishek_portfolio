@@ -23,7 +23,7 @@ function InternshipCard({item,show}) {
       
       </Card.Body>
       <h6 style={{color:'crimson',padding:'1rem'}}>
-        Skills: {item.skills}
+        Skills: <em>{item.skills}</em>
        </h6>
     </Card>
   );

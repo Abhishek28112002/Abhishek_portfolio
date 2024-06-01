@@ -28,7 +28,7 @@ const skillsData = [
   },
   {
     category: "Backend Technologies",
-    skills: ["Node Js", "Express Js"],
+    skills: ["Node Js", "Express Js","FastAPI"],
   },
   {
     category: "Android Development",
